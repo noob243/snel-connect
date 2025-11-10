@@ -8,7 +8,7 @@ function Login() {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault()
-    console.log('Login attempt:', { userType, email, password })
+    console.log('Login attempt:', { userType, email })
     alert('Fonctionnalité de connexion à implémenter')
   }
 
